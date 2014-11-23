@@ -12,7 +12,7 @@
 <AnchorPane maxHeight="500.0" maxWidth="800.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionBD.view.StartMenuController">
    <children>
       <Separator layoutX="397.0" orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="100.0" />
-      <Pane fx:id="affichagePanel" layoutX="400.0" layoutY="100.0" onMouseReleased="#gotoCreateCategory" prefHeight="400.0" prefWidth="401.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="405.0" AnchorPane.topAnchor="100.0">
+      <Pane fx:id="affichagePanel" layoutX="400.0" layoutY="100.0" onMouseReleased="#gotoAffichage" prefHeight="400.0" prefWidth="401.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="405.0" AnchorPane.topAnchor="100.0">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="395.0" stroke="WHITE" strokeType="INSIDE" width="400.0" />
             <Label layoutX="81.0" layoutY="216.0" text="Afficher">
@@ -27,7 +27,7 @@
             </ImageView>
          </children>
       </Pane>
-      <Pane fx:id="modifierPanel" layoutX="400.0" layoutY="100.0" prefHeight="400.0" prefWidth="401.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+      <Pane fx:id="modifierPanel" layoutX="400.0" layoutY="100.0" onMouseReleased="#gotoModifier" prefHeight="400.0" prefWidth="401.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="395.0" stroke="WHITE" strokeType="INSIDE" width="400.0" />
             <Label layoutX="67.0" layoutY="218.0" text="Modifier">

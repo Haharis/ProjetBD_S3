@@ -31,7 +31,7 @@ public class StartMenuController {
    }
 
    @FXML
-   public void gotoAffichage(MouseEvent event) throws IOException {
+   public void gotoCreateCategory(MouseEvent event) throws IOException {
       Stage stage = new Stage();
       stage.setTitle("Affichage");
       Pane myPane = null;
