@@ -1,0 +1,16 @@
+package gestionBD.controller;
+
+import gestionBD.MainApp;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+
+public class StartMenuController {
+	private MainApp mainApp;
+	
+	@FXML
+	private void handlePanelClickAction(ActionEvent event)
+	{
+		
+	}
+
+}

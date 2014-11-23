@@ -1,0 +1,29 @@
+package gestionBD.view;
+
+import gestionBD.MainApp;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.Pane;
+
+public class StartMenuController {
+	private MainApp mainApp;
+	
+	@FXML
+	private Pane affichagePanel;
+	
+	@FXML
+	private Pane modifierPanel;
+	
+	public void setMainMap(MainApp mainApp)
+	{
+		this.mainApp = mainApp;
+	}
+	
+	@FXML
+	private void handlePanelAffichageClickAction(MouseEvent event)
+	{
+		this.mainApp.showAffichage();
+	}
+
+}
